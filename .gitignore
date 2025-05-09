@@ -1,0 +1,5 @@
+*.ipynb
+*.png 
+src/eda_files/
+.DS_Store
+__pycache__/
