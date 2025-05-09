@@ -13,7 +13,7 @@ src/run.sh
 *(Ensure `run.sh` has executable permissions: `chmod +x run.sh`)*
 
 ## Docker Usage
-To ensure `output.ipynb` is accessible after running the container, mount a volume with:
+The file `output.ipynb` is the result of running `eda.ipynb` (.md in repository) in the Docker container. To ensure `output.ipynb` is accessible after running the container, mount a volume with:
 ```bash
 docker run --rm -v "$(pwd)/src:/app/src" my-docker-image
 ```
