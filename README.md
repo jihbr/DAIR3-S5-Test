@@ -17,4 +17,4 @@ The file `output.ipynb` is the result of running `eda.ipynb` (.md in repository)
 ```bash
 docker run --rm -v "$(pwd)/src:/app/src" my-docker-image
 ```
-**Note**: Replace `my-docker-image` with your actual Docker image name.
+**Note**: `my-docker-image` is the name of actual image created. The actual Docker Image has not yet been shared.
